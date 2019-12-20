@@ -1,0 +1,12 @@
+module AppApplication
+{
+
+	interface Server
+	{
+
+	    int Get(string method, string params,out string resp);
+
+        int Put(string method, string params,out string resp);
+
+  };
+};
